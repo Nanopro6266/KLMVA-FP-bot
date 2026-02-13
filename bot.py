@@ -6,6 +6,7 @@ import websockets
 
 TOKEN = os.environ["DISCORD_TOKEN"]
 CHANNEL_ID = int(os.environ["CHANNEL_ID"])
+ROLE_ID = int(os.environ["ROLE_ID"])
 
 WSS_URL = "wss://24data.ptfs.app/wss"
 
@@ -51,8 +52,10 @@ async def handle_flight_plan(data, event_type):
 
     embed.set_footer(text=f"Server: {'Event' if event_type == 'EVENT_FLIGHT_PLAN' else 'Main'}")
 
-    await channel.send(embed=embed)
-
+    await channel.send(
+        content=f"<@&{ROLE_ID}>",
+        embed=embed
+    )
 
 
 async def websocket_listener():
@@ -85,4 +88,5 @@ async def on_ready():
 
 
 client.run(TOKEN)
+
 
