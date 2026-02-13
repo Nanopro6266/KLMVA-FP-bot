@@ -3,12 +3,9 @@ import json
 import asyncio
 import discord
 import websockets
-from dotenv import load_dotenv
 
-load_dotenv()
-
-TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
+TOKEN = os.environ["DISCORD_TOKEN"]
+CHANNEL_ID = int(os.environ["CHANNEL_ID"])
 
 WSS_URL = "wss://24data.ptfs.app/wss"
 
@@ -88,3 +85,4 @@ async def on_ready():
 
 
 client.run(TOKEN)
+
