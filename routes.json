@@ -1,0 +1,335 @@
+{
+  "dep_airport": {
+    "dep_runway": {
+      "arr_airport": {
+        "arr_runway": {
+          "flightlevel": "testFL",
+          "route": "test route"
+        }
+      }
+    }
+  },
+  "IRFD": {
+    "25L": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "25C": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "25R": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "7L": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "7C": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "7R": {
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "040", "route": "testing ofzo" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    }
+  },
+
+  "IPPH": {
+    "11": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "29": { 
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "15": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "33": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    }
+  },
+
+  "ITKO": {
+    "02": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "20": { 
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "13": { 
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    },
+    "31": { 
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ILAR": {
+        "06": { "flightlevel": "", "route": "" },
+        "24": { "flightlevel": "", "route": "" }
+      }
+    }
+  },
+
+  "ILAR": {
+    "06": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      }
+    },
+    "24": {
+      "IRFD": {
+        "25L": { "flightlevel": "", "route": "" },
+        "25C": { "flightlevel": "", "route": "" },
+        "25R": { "flightlevel": "", "route": "" },
+        "7L": { "flightlevel": "", "route": "" },
+        "7C": { "flightlevel": "", "route": "" },
+        "7R": { "flightlevel": "", "route": "" }
+      },
+      "IPPH": {
+        "11": { "flightlevel": "", "route": "" },
+        "29": { "flightlevel": "", "route": "" },
+        "15": { "flightlevel": "", "route": "" },
+        "33": { "flightlevel": "", "route": "" }
+      },
+      "ITKO": {
+        "02": { "flightlevel": "", "route": "" },
+        "20": { "flightlevel": "", "route": "" },
+        "13": { "flightlevel": "", "route": "" },
+        "31": { "flightlevel": "", "route": "" }
+      }
+    }
+  }
+}
