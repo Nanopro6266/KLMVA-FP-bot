@@ -1,5 +1,4 @@
 # import packages
-import os
 import json
 import asyncio
 import re
@@ -9,10 +8,10 @@ import aiohttp
 import websockets
 
 # env variabelen
-TOKEN = "MTQ3MTU2OTg4NzIyOTkwMjk5Mw.GsfYNg.IuFqF3jMA7R_DGDEI7aB4g4ZwAmxiy5h10UhnY"
-CHANNEL_ID_ROUTE = 1471606787986690364
-CHANNEL_ID_FPL = 1463622717377872056
-ROLE_ID = 1471933896198459567
+TOKEN = [Discord Bot Token]
+CHANNEL_ID_ROUTE = [channel id of channel where route will be send]
+CHANNEL_ID_FPL = [channel id of channel where FPL updates will be send]
+ROLE_ID = [id of FPL ping role]
 
 WSS_URL = "wss://24data.ptfs.app/wss"
 
@@ -307,6 +306,7 @@ async def on_ready():
 
     await fetch_initial_atis()
     client.loop.create_task(websocket_listener())
+
 
 
 client.run(TOKEN)
